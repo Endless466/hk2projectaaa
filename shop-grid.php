@@ -1,3 +1,9 @@
+<?php
+require_once("./dbhelper.php");
+$cate = executeSingleResult("select * from category");
+
+
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -312,7 +318,7 @@
 											<img src="https://via.placeholder.com/75x75" alt="#">
 										</div>
 										<div class="content">
-											<h5><a href="#">Women Clothings</a></h5>
+											<h5><a href="#"><?php echo $cate["product_name"]?></a></h5>
 											<p class="price">$99.50</p>
 											<ul class="reviews">
 												<li class="yellow"><i class="ti-star"></i></li>
@@ -395,8 +401,9 @@
 								<div class="single-product">
 									<div class="product-img">
 										<a href="product-details.html">
-											<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-											<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+										
+											<img class="default-img" src="<?php echo $cate['category_image'] ?>"  alt="#">
+											<img class="hover-img" src="<?php echo $cate["category_image"]?>" alt="#">
 										</a>
 										<div class="button-head">
 											<div class="product-action">
@@ -410,7 +417,7 @@
 										</div>
 									</div>
 									<div class="product-content">
-										<h3><a href="product-details.html">Women Hot Collection</a></h3>
+										<h3><a href="product-details.html"><?php echo $cate["category_name"]?></a></h3>
 										<div class="product-price">
 											<span>$29.00</span>
 										</div>
