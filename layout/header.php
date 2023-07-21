@@ -51,7 +51,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+							<a href="index.php"><img src="images/logo.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -212,11 +212,11 @@
 										<div class="nav-inner">	
 											<ul class="nav main-menu menu navbar-nav">
 													<li class="active"><a href="#">Home</a></li>
-													<li><a href="/shop-grid.html">Product</a></li>												
+													<li><a href="shop-grid.php">Product</a></li>												
 													<li><a href="#">Service</a></li>
 													<li><a href="#">Shop<i class="ti-angle-down"></i><span class="new">New</span></a>
 														<ul class="dropdown">
-															<li><a href="shop-grid.html">Shop Grid</a></li>
+															<li><a href="shop-grid.php">Shop Grid</a></li>
 															<li><a href="cart.html">Cart</a></li>
 															<li><a href="checkout.html">Checkout</a></li>
 														</ul>

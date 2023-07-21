@@ -98,7 +98,7 @@
 						<div class="col-lg-2 col-md-2 col-12">
 							<!-- Logo -->
 							<div class="logo">
-								<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+								<a href="index.php"><img src="images/logo.png" alt="logo"></a>
 							</div>
 							<!--/ End Logo -->
 							<!-- Search Form -->
@@ -168,7 +168,7 @@
 												<span>Total</span>
 												<span class="total-amount">$134.00</span>
 											</div>
-											<a href="checkout.html" class="btn animate">Checkout</a>
+											<a href="checkout.php" class="btn animate">Checkout</a>
 										</div>
 									</div>
 									<!--/ End Shopping Item -->
@@ -291,7 +291,7 @@
 									<!-- Single Post -->
 									<div class="single-post first">
 										<div class="image">
-											<img src="https://via.placeholder.com/75x75" alt="#">
+										<img src="../../Assets/<?= $category['category_image'] ?>" width="100px" height="100px">
 										</div>
 										<div class="content">
 											<h5><a href="#">Girls Dress</a></h5>
@@ -785,7 +785,7 @@
 							<!-- Single Widget -->
 							<div class="single-footer about">
 								<div class="logo">
-									<a href="index.html"><img src="images/logo2.png" alt="#"></a>
+									<a href="index.php"><img src="images/logo2.png" alt="#"></a>
 								</div>
 								<p class="text">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue,  magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
 								<p class="call">Got Question? Call us 24/7<span><a href="tel:123456789">+0123 456 789</a></span></p>
